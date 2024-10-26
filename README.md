@@ -6,9 +6,9 @@ ___________________
 
 **Manual pages and man page alternatives**
 
-`man`
+`man` The linux man pages.
 
-`tldr`
+`tldr` A simple alternative to the linux man pages.
 
 **run command with superuser priviledges**
 
