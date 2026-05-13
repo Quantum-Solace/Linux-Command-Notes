@@ -43,9 +43,14 @@ ___________________
 
 `curl ifconfig.me`
 
-*print $PATH**
+**print $PATH**
 
 `echo $PATH`
+
+add executable to PATH variable
+
+`PATH=$PATH:/path-to-program`
+
 
 **print environments**
 
@@ -69,16 +74,12 @@ ___________________
 
 `curl -o`
 
-**check for wifi card**
-
-`iwconfig`
-
-`iw dev`
 
 **Wifi Scanning & cracking tools**
 Enable monitor mode for wifi card
 `sudo airmon-ng start <interface>`
-**print wifi cards and their status**
+
+**check wifi cards and their status**
 
 `iwconfig`
 
@@ -95,12 +96,11 @@ scan all wifi APs in range
 
 `sudo airodump-ng <interface> -c <channel> -w <pcap output file> -d <target bssid>`
 
-Deauth wifi AP for EAPOL capture
 `sudo aireplay-ng wlan0 -0 0 -a <bssid>`
+deauth wifi AP for EAPOL capture
 
 **start nessus**
 `sudo systemctl start nessusd.service`
-
 open browser at https://localhost:8834
 
 **virus scanners and rootkithunter**
@@ -124,6 +124,14 @@ start the program
 `gdb() stepi`
 step through the program
 
+`gdb() x`
+examine a memory register in hex
+
+`gdb() x/d`
+examine a memory register in decimal
+
+`gdb() run`
+run the executable
 
 
 
