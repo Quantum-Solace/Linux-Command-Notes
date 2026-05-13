@@ -1,4 +1,4 @@
-# Useful-Kali-Linux-Commands
+# Useful-Linux-Commands
 This is just a simple showcase of my favourite linux commands, I will be updating this list periodically.
 
 Favourite commands
