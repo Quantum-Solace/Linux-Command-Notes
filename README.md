@@ -109,4 +109,24 @@ open browser at https://localhost:8834
 
 `rkhunter --check`
 
+**Binary Analysis & Executable Tools**
+
+`objdump -M -d`
+disassembly executable in intel syntax
+
+
+`gdb ./program`
+start gdb on executable binary
+
+`gdb() starti`
+start the program
+
+`gdb() stepi`
+step through the program
+
+
+
+
+
+
 
