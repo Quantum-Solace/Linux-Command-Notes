@@ -13,6 +13,13 @@ ___________________
 **run command with superuser priviledges**
 
 `sudo`  
+**Regex filtering**
+
+exclude pattern
+`cat file.txt | awk "! /expression/"
+
+search pattern
+cat file.txt | grep "pattern"
 
 **run last command as sudo**
 
@@ -27,6 +34,9 @@ ___________________
 **check background jobs**
 
 `bg`
+
+**check linux permissions**
+`id`
 
 **print local ip addresses**
 
@@ -74,6 +84,15 @@ add executable to PATH variable
 
 `curl -o`
 
+**Reverse Engineering**
+print strings from binary file
+`strings file`
+
+print objects from binary file
+`objdump -d file`
+
+print hexdump from binary file
+`xxd file`
 
 **Wifi Scanning & cracking tools**
 Enable monitor mode for wifi card
