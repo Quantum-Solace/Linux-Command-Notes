@@ -137,7 +137,7 @@ open browser at https://localhost:8834
 
 **Binary Analysis & Executable Tools**
 
-`objdump -M -d`
+`objdump -M intel -d`
 disassembly executable in intel syntax
 
 
@@ -150,13 +150,14 @@ start the program
 `gdb() stepi`
 step through the program
 
-`gdb() x`
+`gdb() x $register`
 examine a memory register in hex
 
-`gdb() x/d`
+`gdb() x/d $register`
 examine a memory register in decimal
 
 `gdb() run`
+`gdb() r`
 run the executable
 
 
