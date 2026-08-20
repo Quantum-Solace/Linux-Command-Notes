@@ -48,6 +48,13 @@ cat file.txt | grep "pattern"
 
 `ip address`
 
+**Connect over ssh**
+
+`ssh user@hostname`
+
+connect with key
+`ssh -i key user@hostname`
+
 
 **print public ip address**
 
